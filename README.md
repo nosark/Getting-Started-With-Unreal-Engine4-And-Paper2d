@@ -7,6 +7,9 @@ This is a guide specific to setting up Paper2D with a C++ Unreal Engine 4 Projec
  If for some reason, you don't already have Unreal Engine installed. Install Unreal Engine 4 via:
  https://docs.unrealengine.com/en-US/GettingStarted/Installation
  
+ If you haven't already installed and setup Visual Studio 2017 for Unreal Engine 4
+ https://docs.unrealengine.com/en-us/Programming/Development/VisualStudioSetup
+ 
 # Step Two: Create New Project
  Launch UE4 with the EPic Launcher and create a new Basic Code C++ Project. 
  
