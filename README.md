@@ -1,20 +1,22 @@
+# WIP
+
 # Getting-Started-With-Unreal-Engine4-And-Paper2d
 This is a guide specific to setting up Paper2D with a C++ Unreal Engine 4 Project. There isn't alot of information on this out there without scowering the internet or AnswersHub. So I took it upon myself to create a guide for newcomers to hopefully remove some early frustrations whilst creating your new Paper2D project.
 
-# Step One
+# Step One: Installation
  If for some reason, you don't already have Unreal Engine installed. Install Unreal Engine 4 via:
  https://docs.unrealengine.com/en-US/GettingStarted/Installation
  
-# Step Two
+# Step Two: Create New Project
  Launch UE4 with the EPic Launcher and create a new Basic Code C++ Project. 
  
-# Step Three
+# Step Three: Open Visual Studio
  If the Editor hasn't launched it already, Click file in your editor, and in the drop down select "Open Visual Studio".
  
-# Step Four
+# Step Four: Open Build.cs 
 With Visual Studio open, locate "YourProjectName.Build.cs" in the Solution Explorer and open that file.
 
-# Step Five
+# Step Five: Add Paper2D Dependency to Build.cs file & Project
 Add "Paper2D" to the PublicDependencyModuleNames.AddRange(... {...}); list of dependencies.
 
 ```c#
@@ -42,5 +44,11 @@ public class YourProjectName : ModuleRules
 }
 ```
 
+# Step Six: Refresh Visual Studio From UE4 Editor
+With the UE4 Editor open select the "File Drop Down" and select "Refresh Visual Studio"
+
+# Step 7: Enjoy!
+
+## Success! All Paper2d headers and classes should be working properly and recognized by Intellisense!
 
                                                
